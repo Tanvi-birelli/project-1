@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Student Registration form</title>
+    <meta name="viewport" content="width:device-width, initial-scale:1">
+    <meta charset="UTF-8">
+    <style>
+      table{
+        border-collapse:collapse;
+        }
+    </style>
+  </head>
+  
+  <body bgcolor="powderblue">
+    <form >
+    	<table border="2" align="center" bgcolor="lavender" cellspacing="5" cellpadding="10">
+    	  <tr>
+    	    <td>Name:</td>
+    	    <td><input name="name" type="text"></input></td>
+    	  </tr>
+    	  <tr>
+    	    <td>Branch:</td>
+    	    <td><select type="dropdown" name="branch">
+    	      <option value="SELECT">--SELECT--</option>
+    	      <option value="CSE">CSE</option>
+    	      <option value="ECE">ECE</option>
+    	      <option value="IT">IT</option>
+    	      <option value="EEE">EEE</option>
+    	      <option value="CIVIL">CIVIL</option>
+    	      <option value="MECH">MECH</option>
+    	      <option value="AUTO">AUTO</option>
+    	    </select></td>
+    	  </tr>
+    	  <tr>
+    	    <td>RollNo:</td>
+    	    <td><input name="rollno" type="number"></input></td>
+    	  </tr>
+    	  <tr>
+    	    <td>Year:</td>
+    	    <td><select type="dropdown" name="year">
+    	      <option value="SELECT">--SELECT--</option>
+    	      <option value="1">1</option>
+    	      <option value="2">2</option>
+    	      <option value="3" selected>3</option>
+    	      <option value="4">4</option>
+    	    </select></td></td>
+    	  </tr>
+    	  <tr>
+    	    <td>Contact Number:</td>
+    	    <td><input name="contact number" type="text"></input></td>
+    	  </tr>
+    	  <tr>
+    	    <td>Gender:</td>
+    	    <td><input name="gender" type="radio" value="male">Male</input><br>
+    	    <input name="gender" type="radio" value="female">Female</input><br>
+    	    <input name="gender" type="radio" value="others">Others</input></td><br>
+    	  </tr>
+    	  <tr>
+    	    <td>Address:</td>
+    	    <td><textarea name="address" row="10" col="30"></textarea></td>
+    	  </tr>
+    	  <tr>
+    	    <td>Skills:</td>
+    	    <td><input name="skills" type="checkbox" value="c"  >C</input><br>
+    	    <input name="skills" type="checkbox" value="c++">C++</input><br>
+    	    <input name="skills" type="checkbox" value="python" >Python</input><br>
+    	    <input name="skills" type="checkbox" value="java">Java</input></td><br>
+    	  </tr>
+    	  <tr align="center">
+    	    <td><input type="submit" value="submit"></input></td>
+    	    <td><input type="reset" value="reset"></input></td>
+    	</table>
+    </form>
+  </body>
+</html>	
