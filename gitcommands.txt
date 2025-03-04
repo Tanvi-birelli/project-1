@@ -1,0 +1,21 @@
+# Navigate to your project directory
+cd devops-12
+
+# Initialize a Git repository (if not initialized)
+git init
+
+# Check the status of the repository
+git status
+
+# Add files to the staging area (add specific files or all files)
+git add .
+
+# Commit the changes
+git commit -m "commiting form file"
+
+# Add the remote repository (GitHub URL)
+git remote add origin https://github.com/Tanvi-birelli/project-1.git
+
+# Push the changes to GitHub
+git push origin master
+
